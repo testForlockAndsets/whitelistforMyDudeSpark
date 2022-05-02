@@ -1,0 +1,17 @@
+_G.Key = 'nigger'
+
+local keys = {
+    nigger = true
+}
+
+checkKey = (function(key)
+    return (keys[key])
+end)
+
+local nega = tostring(_G.Key)
+
+if (checkKey(nega)) then
+    print('halal')
+else
+    print('no bye nigger')
+end
